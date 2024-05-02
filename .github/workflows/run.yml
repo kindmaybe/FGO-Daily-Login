@@ -21,7 +21,7 @@ jobs:
         run: pip install -r https://raw.githubusercontent.com/O-Isaac/FGO-Daily-Login/master/requirements.txt
 
       - name: Gettings files from Repo
-        uses: actions/checkout@v2
+        uses: actions/checkout@v4
 
       - name: Execute main script
         run: |
